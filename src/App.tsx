@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './App.scss';
+import style from './App.module.scss';
 
 function App() {
   return (
-    <div>123123</div>
+    <div className={style.a}>123123</div>
   );
 }
 
