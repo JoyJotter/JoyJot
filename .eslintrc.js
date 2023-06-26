@@ -1,5 +1,3 @@
-
-
 const eslintConfig = {
   root: true,
   extends: 'eslint-config-egg',
