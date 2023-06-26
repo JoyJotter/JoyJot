@@ -1,0 +1,43 @@
+.sidebar {
+  height: 100%;
+  padding: 59px 16px 0;
+  position: relative;
+
+  .logo {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    background: #FE7A8A;
+    border-radius: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .tab {
+    .item {
+      color: #333;
+      cursor: pointer;
+      margin-bottom: 2px;
+      padding-left: 35px;
+      height: 32px;
+      line-height: 32px;
+
+      &.selected {
+        background: #F2F2F2;
+        border-radius: 8px;
+      }
+
+      &:hover {
+        background: #F2F2F2;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .catalog {
+
+  }
+}

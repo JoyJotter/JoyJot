@@ -1,9 +1,22 @@
-import React, { useState } from 'react';
-import style from './App.module.scss';
+import React from 'react';
+import Sidebar from './components/sidebar';
+import List from './components/list';
+import Chat from './components/chat';
+import styles from './App.module.scss';
 
-function App() {
+function App(): React.JSX.Element {
   return (
-    <div className={style.a}>123123</div>
+    <div className={styles.root}>
+      <div className={styles.sidebar}>
+        <Sidebar />
+      </div>
+      <div className={styles.main}>
+        <List />
+      </div>
+      <div className={styles.rightBar}>
+        <Chat />
+      </div>
+    </div>
   );
 }
 
