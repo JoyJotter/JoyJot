@@ -1,0 +1,22 @@
+.root {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  height: 100%;
+  width: 246px;
+}
+
+.main {
+  height: 100%;
+  flex: 1;
+  border: 1px solid #E9E9E9;
+  border-radius: 12px;
+}
+
+.rightBar {
+  width: 344px;
+  background: #fff;
+}
