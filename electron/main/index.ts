@@ -53,7 +53,6 @@ async function createWindow() {
       nodeIntegration: true,
       contextIsolation: false,
     },
-    titleBarStyle: 'hidden',
   });
 
   if (process.env.VITE_DEV_SERVER_URL) { // electron-vite-vue#298
